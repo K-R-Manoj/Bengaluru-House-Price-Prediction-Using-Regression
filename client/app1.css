@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background:url(home11.jpg) no-repeat center fixed;
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.form{
+    width: 500px;
+    padding:28px;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.form h1{
+    color: whitesmoke;
+    font-size: xx-large large;
+    font-weight: 500;
+}
+.form p{
+    color: white;
+    font-size: x-large;
+}
+.form input[type="email"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid white;
+    padding: 23px 12px;
+    width: 300px;
+    outline: none;
+    color:white;
+    border-radius: 25px;
+    font-size: x-large;
+    font-weight: 500;
+}
+.form h2{
+    color: whitesmoke;
+    font-size: x-large;
+    font-weight: 500;
+    padding: 5px;
+}
+.form h2::after{
+    content: '';
+    background:#2ecc71;
+    display: block;
+    height: 3px;
+    width: 70px;
+    margin-left: 182px  ;
+}
+.form select[class="location"]{
+    border: 0;
+    background:none;
+    display: block;
+    margin: 20px auto;
+    text-align: center ;
+    border: 2px solid white;
+    padding: 23px 12px;
+    width: 325px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    font-size:x-large;
+
+}
+.form select option{
+    color: black;
+    font-size: large;
+}
+.form ::placeholder{
+    color: white;
+    font-size: x-large;
+} 
+.form input[type="email"]:focus{
+    width: 350px;
+    border-color: #2ecc71;
+
+}
+.form button[class="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid white;
+    padding: 23px 5px;
+    outline: none;
+    color:white;
+    border-radius: 25px;
+    font-size: large;
+    transition: 0.25s;
+}
+.form button[class="submit"]:focus{
+    border-color:#2ecc71 ;
+}
+.form button[class="submit"]:hover{
+    background: #2ecc71;
+}
+.form select[class="location"]:focus{
+    border-color:#2ecc71;
+    width: 380px;
+
+}
+.form input[type = "radio"]{
+    -webkit-appearance: none;
+}
+.form label{
+    font-size: 30px;
+    margin: 20px solid;
+    padding: 10px;
+    height: 65px;
+    width: 55px ;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+}
+.form label:hover{
+    background: #2ecc71;
+    cursor: pointer;
+    color: white;
+    box-shadow: -5px 5px 10px 0 rgba(0,0,0,0.4);
+    transition: .5s;
+
+}
+.form input[type = "radio"]:checked + label{
+    background: #2ecc71;
+}
+.form .switch-field{
+    padding: 2px;
+}
+.right{
+    color: white;
+    border: 0;
+    background: none;
+    font-weight: 500;
+    font-size: xx-large;
+    float: right;
+    margin-top: 18%;
+    margin-right: 28%;
+
+}
+.result {
+    color: white;
+    border:0;
+    background: none;
+    font-weight: 500;
+    font-size:xx-large;
+    float: right;
+    margin-top: 20%;
+    margin-right: -17%;
+   
+    
+}
